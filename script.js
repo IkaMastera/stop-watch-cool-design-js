@@ -6,6 +6,10 @@ document.getElementById("startTimer").addEventListener("click", () => {
   int = setInterval(displayTimer, 10);
 });
 
+document.getElementById("stopTimer").addEventListener("click", () => {
+  clearInterval(int);
+});
+
 function displayTimer() {
   milliseconds += 10;
   if (milliseconds == 1000) {

@@ -5,6 +5,10 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+  background-color: aqua;
+}
+
 .container {
   background-color: #141313;
   width: 40%;
@@ -46,4 +50,5 @@
   font-size: 18px;
   border-radius: 5px;
   cursor: pointer;
+  outline: none;
 }
